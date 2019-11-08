@@ -1,0 +1,173 @@
+/* Theme of black, white, red (2 variations) */
+.navbar-brand img{
+    height: 5vw;
+    width: 10vw;
+}
+
+/* theme setting to active state of link */
+.dropdown-item.active, .dropdown-item:active{
+    background-color: #e60000;
+}
+
+/* signin button setting starts */
+.header-section .btn{
+    background-color: #e60000 !important;
+}
+
+.btn-outline-success{
+    border-color: #e60000;
+    color: white;
+}
+
+.btn-outline-success:hover{
+    border-color: black;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-success.dropdown-toggle:focus{
+    box-shadow:0 0 0 .1em BLACK;
+}
+.btn-outline-success.focus, .btn-outline-success:focus{
+    box-shadow:0 0 0 .1em BLACK;
+}
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show > .btn-outline-success.dropdown-toggle{
+    border-color: #e60000;
+}
+/* signin button setting ends */
+
+ /* setting signup page font */
+.signup-font{
+    font-family: 'Bungee Inline', cursive;
+    color: #f8f9fb;
+    font-size: 40pt;
+}
+
+/* signup image dimensions */
+.signup-section img{
+    background-size: contain;
+}
+
+/* 30daytrial button settings starts*/
+.signup-section .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    color:#e60000;
+    background-color: white;
+    border-color:#e60000;
+}
+
+.signup-section .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus{
+    box-shadow:0 0 0 .1em BLACK;
+}
+
+
+.signup-section .btn-primary.focus, .btn-primary:focus{
+    box-shadow:0 0 0 .1em BLACK;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle{
+    background-color: white;  
+    border-color: black;
+    color: #e60000;  
+}
+.signup-section .btn-primary{
+    padding: 20px;
+    background-color: #a32624;
+    border-color:#a32624;
+    font-size: 20pt;
+    font-family: "Staatliches", "cursive";
+}
+/* 30daytrial button settings ends */
+
+/* card overlay dimension */
+.card-img-overlay {
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+/* card dimension */
+.card img{
+    height: 100vh;
+}  
+
+/* carousel font setting */
+.carousel-caption h5{
+    font-family: "Bungee Inline", "cursive";
+    font-size:50pt;
+    color: #e60000
+}
+
+/* font color based on carousel image */
+.carousel-caption .binge{
+    color:white;
+}
+
+/* font color based on carousel image */
+.carousel-caption .any{
+    columns: #e60000;
+}
+
+/* font color based on carousel image */
+.carousel-caption .collection{
+    color: #e60000;
+}
+
+/* feature section heading */
+.features-heading-font{
+    font-family: "Bungee Inline", "cursive";
+    font-size: 40pt;
+    margin-top: 5rem;
+}
+
+/* feature column section */
+.features-font{
+    font-family: "Oswald", "cursive";
+    font-size: 20pt;
+}
+/*to fix image dimensions */
+.top-movie-section img{
+    width:250px;
+    height: 300px;
+}
+
+/* top heading font */
+.top-font{
+    font-family: "Bungee Inline", "cursive";
+    font-size: 40pt;
+}
+
+/* movie name font */
+.movie-font{
+    font-family: "Staatliches","cursive";
+}
+/* footer setting starts */
+footer{
+    font-family: "Liberation Sans";
+    color: white;
+    padding:10px;
+    background-color:black  ;
+    
+}
+ footer a:hover{
+     color:#e60000;
+ }
+
+footer a{
+    text-decoration: none;
+    padding : 2px;
+    margin:2px;
+    color: whitesmoke;
+}
+
+.footer-logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100px;
+    width:150px;
+}
+/* footer setting ends */
+
+/* setting icon dimensions */
+.icon_container{    
+    font-size: 25px;
+    margin-bottom:5px;
+    margin-top:0px;
+    padding:0px;
+}
